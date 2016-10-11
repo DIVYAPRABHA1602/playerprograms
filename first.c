@@ -5,8 +5,8 @@ void main()
 int n,rem,sum;
 printf("\n enter number");
 scanf("%d",&n);
-rem=rem%10;
-while(a>10)
+rem=n%10;
+while(n>=10)
 {
 n=n/10;
 }
